@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1 class="title">Content Kingdom</h1>
+      </div>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#forum">Forum</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    {% block content %}
+    {% endblock %}
+
+</html>
