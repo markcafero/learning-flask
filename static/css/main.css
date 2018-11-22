@@ -1,0 +1,149 @@
+/* header */
+
+header {
+  overflow: hidden;
+  background-color: white;
+  padding: 20px 10px;
+}
+
+.company_name {
+  font-family: 'Black Han Sans';
+  font-size: 23px;
+  margin: 0;
+  padding-left: 5px;
+  height: 35px;
+  width: 350px;
+}
+
+.menu {
+  display: inline-block;
+  height: 40px;
+  width: 400px;
+  float: right;
+  transform: translateY(-50px);
+}
+
+ul {
+  font-family: 'Dosis';
+  color: black;
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+ul a {
+  color: black;
+  margin: 7px;
+}
+
+li {
+  display: inline;
+}
+
+/* main part */
+
+
+.welcome_banner {
+  font-size: 80px;
+  font-family: 'Roboto';
+  font-weight: 250;
+  margin: 0;
+  padding: 20px;
+
+}
+
+.buttons {
+  padding: 40px;
+  transform: 30
+}
+
+.button {
+  display: inline-block;
+  font-family: 'Dosis';
+  color: black;
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius:0.12em;
+  padding:0.35em 1.2em;
+  border:0.1em solid black;
+  margin:0 0.3em 0.3em 0;
+}
+
+a.button:hover {
+  color: #000000;
+  background-color: gray;
+}
+
+/* What We Offer */
+
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Blog */
+
+a.button8{
+ display:inline-block;
+ padding:0.2em 1.45em;
+ margin:0.1em;
+ border:0.15em solid #CCCCCC;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Segoe UI','Roboto',sans-serif;
+ font-weight:400;
+ color:#000000;
+ background-color:#CCCCCC;
+ text-align:center;
+ position:relative;
+}
+a.button8:hover{
+ border-color:#7a7a7a;
+}
+a.button8:active{
+ background-color:#999999;
+}
+@media all and (max-width:30em){
+ a.button8{
+  display:block;
+  margin:0.2em auto;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* */

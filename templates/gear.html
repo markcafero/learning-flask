@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+<main>
+  <div>
+    <h2>Your Gear:</h2>
+  </div>
+
+    <h3>Add Gear:</h3>
+
+  <form method="POST" action="/gear">
+    {{ form.hidden_tag() }}
+
+    <div class="form-group">
+      {{ form.manufacturer.label }}
+      {{ form.manufacturer }}
+
+    <div class="form-group">
+      {{ form.model.label }}
+      {{ form.model }}
+
+    <div class="form-group">
+      {{ form.category.label }}
+      {{ form.category }}
+
+    <div class="form-group">
+      {{ form.price.label }}
+      {{ form.price }}
+
+    <div class="form-group">
+      {{ form.submit.label }}
+      {{ form.submit }}
+
+
+</main>
+
+{% endblock %}

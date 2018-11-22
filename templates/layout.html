@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/main.css') }}" type="text/css" rel="stylesheet">
   </head>
 
+  <header>
+
+    <div class="company_name">
+      <a href="{{ url_for('index')}}"><h3>Content Kingdom</h3></a>
+    </div>
+
+    <div class="menu">
+    <nav class="">
+      <ul>
+        <li><a href="{{ url_for('blog')}}">Blog</a></li>
+        <li><a href="{{ url_for('gear')}}">Gear</a></li>
+        <li><a href="#shop">Learn</a></li>
+        <li><a href="#Contact">Tools</a></li>
+        <li><a href="#Contact">Stock</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <body>
-    <header>
-      <div>
-        <h1 class="title">Content Kingdom</h1>
-      </div>
-
-      <nav class="menu">
-        <ul>
-          <li><a href="#blog">Blog</a></li>
-          <li><a href="#forum">Forum</a></li>
-          <li><a href="#shop">Shop</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
-      </nav>
-
-    </header>
 
     {% block content %}
     {% endblock %}
+
+  </body>
+
 
 </html>

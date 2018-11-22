@@ -1,9 +1,25 @@
 {% extends "layout.html" %}
 
 {% block content %}
-  <main>
-    <p>This is the main page. Welcome!</p>
-    
 
+  <main>
+
+  <div class="container">
+    <h1 class="welcome_banner">Welcome Home,</h1>
+      <h1 class="welcome_banner">Creator</h1>
+  </div>
+
+    <div class="container">
+      <a href="{{ url_for('signup')}}" class="button">Get Started</a>
+      <a href="{{ url_for('login')}}"class="button">Log In</a>
+    </div>
+
+
+    <div class="banner">
+      <h3 class="heading">Check It Out</h3>
+    </div>
+
+
+  </main>
 
 {% endblock %}
